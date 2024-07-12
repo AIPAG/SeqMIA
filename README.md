@@ -77,4 +77,4 @@
 
 # Cite
 
-  if you use SeqMIA for your research,please cite Our paper [OpenAI](https://www.openai.com "OpenAI's Homepage") 链接示例。
+  if you use SeqMIA for your research,please cite Our paper [XXX](https://www.XXX.com)
