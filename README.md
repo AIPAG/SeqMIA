@@ -63,7 +63,7 @@
 
   First, please put the CIFAR10 dataset (downloaded from its official web, i.e. data_batch_1 to data_batch_5 and test_batch) into `cifar-10-batches-py-official`. Then, you can run `attackMethodsFramework.py` to start the entire attack process.
 
-  You can set some hyperparameters in set_args() or change in the command line with additional parameters as follows.
+  You can set some hyperparameters in set_args() or change them on the command line as follows.
   
   1.The first time you run this code, please set `preprocessData` to `True`. And processed data will be in the `PreprocessedIncludingDistillationData` folder.
   
