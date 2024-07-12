@@ -16,7 +16,7 @@
 # Directory structure
 
 ```
-  ├── ReadMe.md
+  ├── README.md
   
   ├── data
   
