@@ -71,7 +71,7 @@
   
   3.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models when needed.
 
-  For example, after placing the CIFAR10 dataset into `cifar-10-batches-py-official`, run the command `python attackMethodsFramework.py -preprocessData -trainTargetModel -trainShadowModel -distillTargetModel -distillShadowModel`.
+  For example, after placing the CIFAR10 dataset into `cifar-10-batches-py-official`, run the command `python attackMethodsFramework.py --preprocessData True --trainTargetModel True --trainShadowModel True --distillTargetModel True --distillShadowModel True`.
   
 # Authors
 
