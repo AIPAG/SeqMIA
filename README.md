@@ -57,7 +57,7 @@
   
 # Usage instructions
 
-  run attackMethodsFramework.py to start the entire attack process.
+  run 'attackMethodsFramework.py' to start the entire attack process.
 
   1.set your argparse in set_args() or change in the command line with additional parameters.
   
