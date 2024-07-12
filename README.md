@@ -8,6 +8,7 @@
 # Environment dependencies
 
   pytorch:2.0.1+cu118
+  
   python:3.8.17
 
 # Directory structure
@@ -49,16 +50,21 @@
 # Supported Dataset and Model
 
   CIFAR10
+  
   vgg-16
+  
   Following this example, more datasets and models can be added to SeqMIA.
   
 # Usage instructions
 
   run attackMethodsFramework.py to start the entire attack process.
 
-  1.set your argparse in set_args() or change in the command line with additional parameters
+  1.set your argparse in set_args() or change in the command line with additional parameters.
+  
   2.To run this code, you first need to have the processed data. Please set `preprocessData` to `True`.
+  
   3.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model.
+  
   4.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models.
   
 # Authors
