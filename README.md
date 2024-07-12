@@ -67,7 +67,7 @@
   
   1.The first time you run this code, please set `preprocessData` to `True`. And processed data will be in the `PreprocessedIncludingDistillationData` folder.
   
-  2.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model when needed.
+  2.Set `trainTargetModel` and `trainShadowModel` to `True` to train the target model and the shadow model when needed.
   
   3.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models when needed.
 
