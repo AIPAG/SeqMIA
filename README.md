@@ -13,15 +13,16 @@
 
 # Directory structure
 
+```
   ├── ReadMe.md
   
   ├── data
   
-  │  ├── cifar-10-batches-py-official
+  │   ├── cifar-10-batches-py-official
   
-  │  ├── CIFAR10
+  │   ├── CIFAR10
   
-  │    ├── PreprocessedIncludingDistillationData
+  │       ├── PreprocessedIncludingDistillationData
   
   ├── model_IncludingDistillation
   
@@ -46,6 +47,7 @@
   ├── SeqMIA.py
   
   └── temp
+```
   
 # Supported Dataset and Model
 
@@ -75,4 +77,4 @@
 
 # Cite
 
-  if you use SeqMIA for your research,please cite xxx.
+  if you use SeqMIA for your research,please cite Our paper [OpenAI](https://www.openai.com "OpenAI's Homepage") 链接示例。
