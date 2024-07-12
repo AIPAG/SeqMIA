@@ -67,9 +67,9 @@
   
   1.The first time you run this code, please set `preprocessData` to `True`. And processed data will be in the `PreprocessedIncludingDistillationData` folder.
   
-  3.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model when needed.
+  2.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model when needed.
   
-  4.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models when needed.
+  3.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models when needed.
 
   For example, after placing the CIFAR10 dataset into `cifar-10-batches-py-official`, run the command `python attackMethodsFramework.py -preprocessData -trainTargetModel -trainShadowModel -distillTargetModel -distillShadowModel`.
   
