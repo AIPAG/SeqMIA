@@ -17,11 +17,11 @@
   
   ├── data
   
-  │   ├── cifar-10-batches-py-official
+  │  ├── cifar-10-batches-py-official
   
-  │   ├── CIFAR10
+  │  ├── CIFAR10
   
-  │       ├── PreprocessedIncludingDistillationData
+  │    ├── PreprocessedIncludingDistillationData
   
   ├── model_IncludingDistillation
   
