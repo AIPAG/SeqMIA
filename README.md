@@ -11,6 +11,8 @@
   
   python:3.8.17
 
+  Note that we tested this under Windows. If you are on Linux, you may need to change the matplotlib plotting part.
+
 # Directory structure
 
 ```
