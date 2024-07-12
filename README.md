@@ -59,17 +59,17 @@
   
 # Usage instructions
 
-  run `attackMethodsFramework.py` to start the entire attack process.
+  First, please put the CIFAR10 dataset (downloaded from its official web, i.e. data_batch_1 to data_batch_5 and test_batch) into `cifar-10-batches-py-official`. Then, you can run `attackMethodsFramework.py` to start the entire attack process.
 
-  1.set your argparse in set_args() or change in the command line with additional parameters.
+  You can set some hyperparameters in set_args() or change in the command line with additional parameters as follows.
   
-  2.To run this code, you first need to have the processed data. Please set `preprocessData` to `True`.
+  1.The first time you run this code, please set `preprocessData` to `True`. And processed data will be in the `PreprocessedIncludingDistillationData` folder.
   
-  3.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model.
+  3.Set `trainTargetModel` and `trainShadowModel` to True to train the target model and the shadow model when needed.
   
-  4.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models.
+  4.Set `distillTargetModel` and `distillShadowModel` to `True` to distill the models when needed.
 
-  5.Please put the CIFAR10 dataset into cifar-10-batches-py-official,Processed data will be in the PreprocessedIncludingDistillationData folder.
+  For example, after placing the CIFAR10 dataset into `cifar-10-batches-py-official`, run the command `python attackMethodsFramework.py -preprocessData -trainTargetModel -trainShadowModel -distillTargetModel -distillShadowModel`.
   
 # Authors
 
