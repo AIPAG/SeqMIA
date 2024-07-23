@@ -79,4 +79,13 @@
 
 # Cite
 
-  if you use SeqMIA for your research,please cite Our paper [XXX](https://www.XXX.com)
+  if you use SeqMIA for your research,please cite Our paper [SeqMIA: Sequential-Metric Based Membership Inference Attack](https://arxiv.org/abs/2407.15098)
+  ```
+  @inproceedings{li2024seqmia,
+      author = {Hao Li and Zheng Li and Siyuan Wu and Chengrui Hu and Yutong Ye and Min Zhang and Dengguo Feng and Yang Zhang},
+      title = {{SeqMIA: Sequential-Metric Based Membership Inference Attack}},
+      booktitle = {{ACM SIGSAC Conference on Computer and Communications Security (CCS)}},
+      publisher = {ACM},
+      year = {2024}
+}
+  ```
