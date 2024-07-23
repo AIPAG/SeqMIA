@@ -75,11 +75,11 @@
   
 # Authors
 
-  This project is created by Lihao(ISCAS)
+  This project is created by Hao Li (ISCAS)
 
 # Cite
 
-  if you use SeqMIA for your research,please cite Our paper [SeqMIA: Sequential-Metric Based Membership Inference Attack](https://arxiv.org/abs/2407.15098)
+  If you find this work useful in your research, please consider citing [SeqMIA: Sequential-Metric Based Membership Inference Attack](https://arxiv.org/abs/2407.15098)
   ```
   @inproceedings{li2024seqmia,
       author = {Hao Li and Zheng Li and Siyuan Wu and Chengrui Hu and Yutong Ye and Min Zhang and Dengguo Feng and Yang Zhang},
